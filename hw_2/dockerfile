@@ -4,7 +4,11 @@ RUN pip install click
 RUN pip install pdflatex
 RUN apt-get update && apt-get install -y --no-install-recommends texlive
 
+COPY hw_2_1.py .
 COPY hw_2_2.py .
-COPY artifacts/example.tex ./artifacts
+COPY artifacts/ artifacts/
 
-ENTRYPOINT [ "python",  "hw_2_2.py"]
+RUN pwd
+RUN ls -lh
+
+ENTRYPOINT ["python",  "hw_2_2.py"]
