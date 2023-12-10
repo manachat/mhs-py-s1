@@ -6,9 +6,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends texlive
 
 COPY hw_2_1.py .
 COPY hw_2_2.py .
-COPY artifacts/ artifacts/
+COPY artifacts/ artifacts/ 
+# run with -v $(pwd)/out/:/out/
 
-RUN pwd
 RUN ls -lh
+RUN ls -lh artifacts
+
 
 ENTRYPOINT ["python",  "hw_2_2.py"]
