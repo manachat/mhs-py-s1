@@ -1,0 +1,17 @@
+Elapsed 2.10s	User sent 0:	Hello!
+Elapsed 2.10s	User received 0:	uryyb!
+Elapsed 6.00s	User sent 1:	Goddbye!
+Elapsed 7.10s	User received 1:	tbqqolr!
+Elapsed 9.06s	User sent 2:	a
+Elapsed 12.11s	User received 2:	n
+Elapsed 12.11s	User sent 3:	b
+Elapsed 17.11s	User received 3:	o
+Elapsed 17.11s	User sent 4:	c
+Elapsed 22.11s	User received 4:	p
+Elapsed 22.11s	User sent 5:	d
+Elapsed 27.12s	User received 5:	q
+Elapsed 27.12s	User sent 6:	e
+Elapsed 32.12s	User received 6:	r
+Elapsed 50.99s	User sent 7:	GOODBYE FOREVER!!! EVER!!
+Elapsed 50.99s	User received 7:	tbbqolr sberire!!! rire!!
+Elapsed 53.14s	End of input
