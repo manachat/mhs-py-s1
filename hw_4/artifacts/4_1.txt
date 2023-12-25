@@ -1,0 +1,3 @@
+Sync execution: 	1.047s
+Thread execution: 	1.035s
+Proc execution: 	0.1833s
